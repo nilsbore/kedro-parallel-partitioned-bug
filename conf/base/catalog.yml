@@ -1,0 +1,17 @@
+a:
+  type: partitions.PartitionedDataset
+  path: data/a
+  dataset: yaml.YAMLDataset
+  filename_suffix: ".yml"
+
+b:
+  type: partitions.PartitionedDataset
+  path: data/b
+  dataset: yaml.YAMLDataset
+  filename_suffix: ".yml"
+
+c:
+  type: partitions.PartitionedDataset
+  path: data/c
+  dataset: yaml.YAMLDataset
+  filename_suffix: ".yml"
